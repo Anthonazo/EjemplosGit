@@ -1,0 +1,12 @@
+body {
+    color: #fff;
+    background-color: beige;
+    background-size: 400% 400%;
+    position: relative;
+}
+
+h1, h2, p, form {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

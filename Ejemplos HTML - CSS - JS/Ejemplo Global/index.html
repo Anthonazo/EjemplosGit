@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reproductor de Música</title>
+</head>
+<body>
+    <div id="reproductor">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/The_Beatles_members_at_New_York_City_in_1964.jpg/800px-The_Beatles_members_at_New_York_City_in_1964.jpg"
+            alt="Portada del album de The Beatles">
+        <audio id="audio" controls>
+            <source src="here-comes-the-sun-2019-mix.mp3" type="audio/mpeg">
+        </audio>
+        <div id="botones">
+            <button id="inicioParar">Iniciar</button>
+            <button id="reiniciar">Reiniciar</button>
+            <button id="retroceder">Retroceder</button>
+            <button id="avanzar">Avanzar</button>
+        </div>
+    </div>
+    <div id="enlace"> 
+            <a  id = "final"target="_blank" href="http://127.0.0.1:5500/Ejemplo%20Global/infoArtista.html"> Conoce mas </a>
+        </div>
+    <script type="module" src="logic.js"></script>
+</body>
+</html>

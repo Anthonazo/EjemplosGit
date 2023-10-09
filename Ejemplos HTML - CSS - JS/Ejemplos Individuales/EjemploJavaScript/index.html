@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8]">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Pagina Saluda Usuarios</title>
+</head>
+<body>
+    <script>
+        function saludos() {
+            event.preventDefault();
+            var nombre = document.getElementById("saludo").value;
+            var sdl = "Hola, mucho gusto " + nombre;
+            document.getElementById("mensajeSaludo").textContent = sdl;}
+    </script>
+    <div>
+        <header><h1> Pagina Saluda Usuarios </h1></header>
+        <section id="encabezado">
+            <h2 id="titulo">Bienvenido a esta pagina web</h2>
+        </section>
+        <p>
+            Me presento, soy Antthony Moya y me gustaria que ingresaras tu nombre para poder saludarte de forma
+            adecuada. no obstante,
+            para dicha accion se debera usar el codigo de javascript y un buen estilo.
+        </p>
+        <h2>Saludo</h2>
+        <form>
+            <input type="text" name="saludo" placeholder="Ingresa tu nombre" id="saludo"><button
+                id="btenviar" onclick="saludos()">Enviar</button>
+        </form>
+        <p id="mensajeSaludo"></p>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

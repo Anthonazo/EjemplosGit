@@ -1,0 +1,44 @@
+#reproductor, #info {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5%;}
+audio {
+    width: 300px;}
+#botones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;}
+img {
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);}
+audio {
+    text-align: center;}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 89), rgb(29, 0, 48), rgb(75, 69, 77));
+    background-size: 400% 400%;
+    position: relative;}
+button {
+    border-radius: 10px;}
+#enlace, #regresar{
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 100px;
+    border-radius: 15px;}
+#final{
+    color: #ffffff;}

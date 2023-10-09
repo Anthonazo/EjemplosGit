@@ -1,0 +1,37 @@
+body {
+    color: #fff;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 89), rgb(29, 0, 48), rgb(75, 69, 77));
+    background-size: 400% 400%;
+    position: relative;
+    animation: animacion 10s ease infinite;}
+h1 {
+    background: radial-gradient(rgb(162, 19, 129), rgb(99, 48, 113));
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;}
+@keyframes animacion {
+    0% {background-position: 0, 50%;}
+    50% {background-position: 100%, 50%;}
+    100% {background-position: 0, 50%;}}
+h2 {
+    border-color: rgb(255, 255, 255);
+    border-width:8px ;
+    border-radius: 8px;
+    border-style: groove;}
+h1, h2, h3, p {text-align: center;}
+#enlace{
+    border-color: rgb(255, 255, 255);
+    border-width:8px ;
+    border-radius: 8px;
+    border-style: groove;}
+.cajon {
+    width: 300px;
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+    margin: 0 auto; }
+ .cajon img {
+    max-width: 100%; 
+    height: auto; }
+.cajon p {font-size: 16px; margin-top: 10px; }

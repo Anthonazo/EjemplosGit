@@ -1,0 +1,69 @@
+<!--
+    DOCTYPE declara el tipo de version de HTML que se hace uso en este caso HTML5   
+-->
+<!DOCTYPE html>
+<!--
+    Se inicializa elemento raiz del documento con <html> y lang especifica el idioma del documento
+    en esta caso ingles. 
+    -->
+<html lang="en">
+<!--
+        <head> es una parte de la web donde colocamos todas aquellas etiquetas (que no se 
+        van a visualizar), pero que sirven para indicar todas las características que 
+        el navegador necesita
+-->
+
+<head>
+    <!--
+        -Meta permite incluir metadatos y enlaces a recursos externos.
+        -UTF-8 es una codificacion que admite varios caracteres para varios idiomas
+        -ViewPort se usa para controlar el ajuste a la pagina que se establecera automaticamente
+        -Link es usado para incuir enlaces externos, con rel(relacion) se establece una hoja CSS y href especifica la ubicacion del archivo CSS
+        -En Title se establece el titulo de la pagina web que estara en e navegador
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Reproductor Musical</title>
+</head>
+<!--
+    Dentro de body se encuentra el contenido visible de la pagina
+-->
+
+<body>
+
+    <div>
+        <header>
+            <h1> Pagina web </h1>
+        </header>
+        <section id="encabezado">
+            <h2 id="titulo">
+                Primera pagina web
+            </h2>
+        </section>
+        <p>
+            Esta pagina web contiene CSS, usando una animacion para para el fondo, a la par que muestra un degradado, de
+            igual manera implementa
+            diseño para el texto, ajustando su tamaño, su fuente y su color, asi como su posicion para una mejor
+            distribucion.
+        </p>
+        <div class="cajon">
+            <img
+                src="https://www.nationalgeographic.com.es/medio/2022/12/21/el-primer-campo-profundo-del-telescopio-espacial-james-webb_ebc2bf30_221221161954_2000x2041.jpg">
+            <p>El espacio con CSS</p>
+
+        </div>
+    </div>
+
+    <!--
+        Script es usado para incluir codigo Javascript en HTML en type se agrega el modulo 
+        e indica que el archivo javascript se ajecuta en el modulo ES6, por otro lado el src indica 
+        la ubicacion sel archivo javascript
+    -->
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
+<!--
+    Finalmente para cada inicio (<head>) debe haber un cierre (</head>)
+-->
